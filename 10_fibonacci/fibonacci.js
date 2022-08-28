@@ -6,7 +6,7 @@ const fibonacci = function(n) {
     console.log(phi)
     console.log(recipPhi)
 
-    return ((phi**n - (recipPhi)**n)/ Math.sqrt(5))
+    return Math.round(((phi**n - (recipPhi)**n)/ Math.sqrt(5)))
 
 
 };
