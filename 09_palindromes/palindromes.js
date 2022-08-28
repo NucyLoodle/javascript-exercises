@@ -5,9 +5,6 @@ const palindromes = function (string) {
 
     const reverseString = processedString.split("").reverse().join()
 
-    console.log ("The first string is " + splitString)
-    console.log ("The reversed string is " + reverseString)
-    
     if (reverseString === splitString) {
 
         
