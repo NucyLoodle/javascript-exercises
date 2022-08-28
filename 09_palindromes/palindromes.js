@@ -1,9 +1,9 @@
 const palindromes = function (string) {
     let splitString = string.split("");
-    let reverseString = splitString.reverse()
-    let joinString = reverseString.join("")
 
-    if (joinString === string) {
+    let reverseString = splitString.reverse()
+    
+    if (reverseString === splitString) {
         return true
     } else {
         return false
