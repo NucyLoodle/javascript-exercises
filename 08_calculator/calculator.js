@@ -1,6 +1,5 @@
 const add = function(num1, num2) {
-  let addResult = num1 + num2;
-	return addResult;
+   return num1 + num2;
 };
 
 const subtract = function(num1, num2) {
