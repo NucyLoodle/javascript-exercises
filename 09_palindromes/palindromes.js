@@ -1,9 +1,9 @@
 const palindromes = function (string) {
 
     processedString = string.toLowerCase().replace(/[^a-z]/g, "");
-    const splitString = processedString.split("");
+    const splitString = processedString.split("").join();
 
-    const reverseString = processedString.split("").reverse()
+    const reverseString = processedString.split("").reverse().join()
 
     console.log ("The first string is " + splitString)
     console.log ("The reversed string is " + reverseString)
