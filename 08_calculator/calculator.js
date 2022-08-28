@@ -3,8 +3,7 @@ const add = function(num1, num2) {
 };
 
 const subtract = function(num1, num2) {
-	let subtractResult = num1 - num2;
-  return subtractResult;
+  return num1 - num2;
 };
 
 const sum = function(array) {
