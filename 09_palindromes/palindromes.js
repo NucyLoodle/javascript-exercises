@@ -1,13 +1,19 @@
 const palindromes = function (string) {
-    let splitString = string.split("");
+    const splitString = string.split("");
 
-    let reverseString = splitString.reverse()
+    const reverseString = string.split("").reverse()
+
+    console.log ("The first string is " + splitString)
+    console.log ("The reversed string is " + reverseString)
     
     if (reverseString === splitString) {
+
+        
         return true
     } else {
         return false
     }
+
 
 
 };
