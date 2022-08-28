@@ -1,10 +1,11 @@
 const add = function(num1, num2) {
-  let addResult = num 1 + num 2;
+  let addResult = num1 + num2;
 	return addResult;
 };
 
-const subtract = function() {
-	
+const subtract = function(num1, num2) {
+	let subtractResult = num1 - num2;
+  return subtractResult;
 };
 
 const sum = function() {
